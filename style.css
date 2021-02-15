@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 24px;
+}
+
+.header {
+    background-color: rgb(158,157,157);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 24px; padding-bottom: 3px; padding-left: 24px; padding-right: 24px;
+}
+
+.header h1 {
+    background-image: url("img/Poitiers2.jpg");
+    background-size: cover;
+    margin: 20px;
+    height: 350px;
+}
+
+h1 {
+    color:rgb(185, 62, 62);
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 170px; 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(158,157,157);
+    padding: 3px;
+}
+
+.header-nav a {
+    color: rgba(233, 38, 38, 0.8);
+    text-shadow: 1px 1px 1px black;
+    padding-top: 2px; padding-right: 20px; padding-bottom: 3px;
+    font-size: 30px;
+}
+
+.header-nav a:hover {
+    color: rgb(230, 110, 63);
+}
+
+fieldset {
+    display: flex;
+    color:black;
+    background-color: grey;
+    height: 300px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    margin-top: 0px; 
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0 0 30px rgb(207, 46, 46);
+}
+
+.bureau {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bureau a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    background-image: url("img/Poitiers.jpg");
+    height: 350px;
+    padding-left: 20px;
+    justify-content: space-around;
+    align-items: top;
+    box-shadow: 0 0 30px rgb(207, 46, 46);
+}
+
+.footer a {
+    color:rgb(233, 126, 38);
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+}
+
+.footer a:hover {
+    color:rgb(207, 46, 46);
+    text-shadow: 1px 1px 1px black;
+}
