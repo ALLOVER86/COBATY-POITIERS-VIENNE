@@ -4,6 +4,7 @@
 
 html, body {
     font-size: 24px;
+    font-family:"Trebuchet MS";
 }
 
 .header {
@@ -24,7 +25,6 @@ html, body {
 
 h1 {
     color:rgb(185, 62, 62);
-    font-family: 'Times New Roman';
     text-align: center;
     text-shadow: 1px 1px 1px black;
     padding-top: 170px; 
@@ -36,8 +36,8 @@ h1 {
 .header-nav {
     display: flex;
     justify-content: flex-end;
-    flex-direction: column;
     align-items: flex-end;
+    align-content: space-around;
     background-color: rgb(158,157,157);
     padding: 3px;
 }
@@ -58,22 +58,11 @@ fieldset {
     color:black;
     background-color: grey;
     height: 300px;
-    font-family: 'Times New Roman';
     text-align: left;
     margin-top: 0px; 
     justify-content: space-around;
     padding: 20px;
     box-shadow: 0 0 30px rgb(207, 46, 46);
-}
-
-.bureau {
-    display: flex;
-    align-items: flex-start;
-}
-
-.bureau a:hover {
-    color: rgba(255,255,255,1);
-    text-decoration: underline;
 }
 
 .footer {
