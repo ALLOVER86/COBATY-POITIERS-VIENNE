@@ -46,7 +46,7 @@ h1 {
     color: rgba(233, 38, 38, 0.8);
     text-shadow: 1px 1px 1px black;
     padding-top: 2px; padding-right: 20px; padding-bottom: 3px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .header-nav a:hover {
