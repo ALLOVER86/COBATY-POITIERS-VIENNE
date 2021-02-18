@@ -85,3 +85,10 @@ fieldset {
     color:rgb(207, 46, 46);
     text-shadow: 1px 1px 1px black;
 }
+
+@media screen and (max-width: 500px) {
+    .header {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; text-align: center; } 
+    .header-nav {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; }
+    fieldset {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; text-align: center; }
+    .footer {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; text-align: center; font-weight: bold; color: #ff8800; text-shadow: 1px 1px 1px black;}
+}
