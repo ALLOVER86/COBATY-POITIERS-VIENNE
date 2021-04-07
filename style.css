@@ -97,4 +97,6 @@ footer span {
     fieldset {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; text-align: center; }
     .footer {width: 100%; height: auto; float: none; margin-top: 20px; display: flex; flex-direction:column; font-weight: bold; color: #ff8800; text-shadow: 2px 2px 2px black;}
     footer span {margin-top: 50px; }
+    .footer span a {color: #2a9669; text-shadow: 2px 2px 2px black; }
+    .footer span a:hover {color:chartreuse; text-shadow: 2px 2px 2px black;}
 }
