@@ -97,6 +97,6 @@ footer span {
     fieldset {width: 100%; height: auto; float: none; margin-top: 20px; display: inline-block; text-align: center; }
     .footer {font-size: 80%; width: 100%; height: auto; float: none; margin-top: 20px; display: flex; flex-direction:column; font-weight: bold; color: #ff8800; text-shadow: 2px 2px 2px black;}
     footer span {margin-top: 50px; }
-    .footer span a {color:#2a9669; text-shadow: 2px 2px 2px black; }
-    .footer span a:hover {color:chartreuse; text-shadow: 2px 2px 2px black;}
+    .footer span a {color:rgb(207, 46, 46); text-shadow: 2px 2px 2px black; }
+    .footer span a:hover {color:rgb(233, 126, 38; text-shadow: 2px 2px 2px black;}
 }
